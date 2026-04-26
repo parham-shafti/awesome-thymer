@@ -79,6 +79,7 @@ Collection plugins extend specific note collections with custom views, formulas,
 - [Media Tracker](https://github.com/afroviking/thymer-media-plugin) - Track books, movies, and TV shows you've read or watched
 - [Weekly Journal](https://github.com/ed-nico/thymer-weekly-journal) - View this week's journal pages side by side
 - [Supertypes](https://github.com/RobbK17/thymer-supertypes) - adds typed records with coloured badges, per-type field visibility etc.
+- [Hardcover Sync](https://github.com/phildrysdale1/thymer-hardcover-sync/) - syncs your Hardcover list to a collection.
 
 #### Dev Examples
 - [Custom Property Render](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/collection-plugins/custom-prop-render) - Custom rendering and sorting for table properties
