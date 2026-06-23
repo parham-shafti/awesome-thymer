@@ -10,61 +10,110 @@ Install and use plugins at your own risk. It may also be wise to play around wit
 
 - [Plugins](#plugins)
   - [App Plugins](#app-plugins)
+    - [Capture & Import](#capture--import)
+    - [Search & Navigation](#search--navigation)
+    - [Views & Visualizations](#views--visualizations)
+    - [Productivity & Automation](#productivity--automation)
+    - [Themes & Styling](#themes--styling)
+    - [Text & Editor Enhancements](#text--editor-enhancements)
+    - [References & Metadata](#references--metadata)
+    - [Journal & Media](#journal--media)
+    - [Workspace Utilities](#workspace-utilities)
+    - [Sidebar & UI](#sidebar--ui)
+    - [Dev Examples](#dev-examples)
   - [Collection Plugins](#collection-plugins)
 - [Themes](#themes)
+  - [Light & Dark](#light--dark)
+  - [Dark Only](#dark-only)
+  - [Light Only](#light-only)
 - [Contributing](#contributing)
 
 ---
 
 ## Plugins
 
-> [Plugins Manager](https://github.com/ahpatel/thymer-plugins-manager) - Provides an interface to install, manage, update, import and export any of the compatible App Plugins and Collection Plugins from below
+> [Plugins Manager](https://github.com/ahpatel/thymer-plugins-manager) - Provides an interface to install, manage, update, import and export any of the compatible App Plugins and Collection Plugins from below.
 
 ### App Plugins
 
 App plugins extend the entire Thymer application with global features.
 
-- [App Lock](https://github.com/dantesxj/ThymerAppLockPlugin) - PIN-based Thymer app lock plugin with inactivity auto-lock, manual lock controls, and a hardened sign-out flow.
-- [Backreferences](https://github.com/harpreetchima/thymer-backreferences) - Thymer backreferences footer plugin
-- [Bulk Move Notes](https://github.com/RobbK17/thymer-bulkmove) - Bulk move notes from one collection to another
-- [Cadence](https://github.com/harpreetchima/thymer-cadence) - Daily Note into a cadence system with optional weekly, monthly, quarterly, and yearly notes
-- [Charts](https://github.com/Braffolk/thymer-charts) - Thymer plugin for creating and using charts
+#### Capture & Import
+
 - [Clipboard Parser](https://github.com/RobbK17/thymer-clipboard-parser) - Quickly create Thymer pages from clipboard content
-- [Daily Focus (tasks)](https://github.com/niklashog/Thymer-plugins/tree/main/DailyFocus) - A workspace-wide task dashboard that aggregates tasks from across your entire workspace.
-- [Enhanced Search](https://github.com/RobbK17/thymer-enhanced-search) - Cross-collection record viewer with Search, Duplicates, and Compare modes
-- [Flashcards](https://github.com/talal/thymer-flashcards) - Create and review flashcards using spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs))
-- [Google Drive Previewer](https://github.com/Bambouri/Thymer-Google-Drive-Previewer) - Allows you to preview Google Drive links inside of Thymer
-- [Graph View](https://github.com/ed-nico/thymer-graph-view) - Renders an interactive force-directed graph of all your notes, references, and tags
 - [Importer](https://github.com/phildrysdale1/thymer-importer) - Import notes from other note apps
-- [Indent Rainbow](https://github.com/ahpatel/thymer-indent-rainbow) - Enhanced hierarchy visualisation with rainbow-colored indent guides and workflowy style bulleting
-- [Journal Image Gallary](https://github.com/dantesxj/journal-image-gallery) - renders date-matched images from one or more collections.
+- [Quick Capture](https://github.com/gitdaveuk/thymer-quick-capture-plugin) - Quickly capture notes from anywhere
+- [Save to Thymer](https://github.com/zakblf/save-to-thymer) - Save web pages to Thymer collections with custom templates and property mapping
+
+#### Search & Navigation
+
+- [Enhanced Search](https://github.com/RobbK17/thymer-enhanced-search) - Cross-collection record viewer with Search, Duplicates, and Compare modes
+- [Recent Files](https://github.com/phildrysdale1/thymer-recent-files/) - Adds quick access to your most recently modified files via a pop-up modal
+- [Related Notes](https://github.com/ed-nico/thymer-related-notes) - Discovers related notes based on content similarity, shared references, and tags
+- [Workflow(y) Search](https://github.com/RobbK17/thymer-workflow-search) - Workflowy inspired incremental search plugin
+
+#### Journal & Media
+
+- [Cadence](https://github.com/harpreetchima/thymer-cadence) - Daily Note into a cadence system with optional weekly, monthly, quarterly, and yearly notes
+- [Journal Image Gallery](https://github.com/dantesxj/journal-image-gallery) - Renders date-matched images from one or more collections
 - [On This Day](https://github.com/ed-nico/thymer-on-this-day) - Shows your journal entries from this day in previous years
-- [Notes Management Plugin](https://github.com/RobbK17/thymer-notes-management) - Unified Thymer custom panel for bulk note operations and advanced tag workflows.
+- [Readwise Sync & Daily Highlights Footer](https://github.com/dantesxj/ThymerReadwiseSyncwithDailyFooter) - Sync Readwise Highlights
+- [Today's Notes](https://github.com/dantesxj/ThymerTodaysNotesFooter) - Footer on journal entries showing records whose date field matches
+- [Weather Moon](https://github.com/dantesxj/weather-moon) - Journal weather and moon data
+- [YouTube Timestamp](https://github.com/parham-shafti/thymer-youtube-timestamps) - Add timestamped YouTube links
+
+#### Views & Visualizations
+
+- [Charts](https://github.com/Braffolk/thymer-charts) - Thymer plugin for creating and using charts
+- [Daily Focus (tasks)](https://github.com/niklashog/Thymer-plugins/tree/main/DailyFocus) - A workspace-wide task dashboard that aggregates tasks from across your entire workspace
+- [Flashcards](https://github.com/talal/thymer-flashcards) - Create and review flashcards using spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs))
+- [Graph View](https://github.com/ed-nico/thymer-graph-view) - Renders an interactive force-directed graph of all your notes, references, and tags
+- [Tables](https://github.com/phildrysdale1/thymer-tables) - Renders editable tables in HTML
+
+#### Text & Editor Enhancements
+
+- [Copy Code](https://github.com/adrian18hd/thymer-copy-code-plugin) - Copy code blocks and inline code
+- [Font Selector](https://github.com/phildrysdale1/thymer-font-selector/) - Separate interface and note fonts
+- [Indent Rainbow](https://github.com/ahpatel/thymer-indent-rainbow) - Enhanced hierarchy visualisation with rainbow-colored indent guides and workflowy style bulleting
+- [PDF Highlighter](https://github.com/parham-shafti/thymer-pdf-highlighter) - Turn PDF highlights into notes
+- [Word Count](https://github.com/gitdaveuk/Thymer-Word-Count-Plugin) - Displays a word count for the current page
+
+#### References & Metadata
+
+- [Backreferences](https://github.com/harpreetchima/thymer-backreferences) - Thymer backreferences footer plugin
+- [Property Arranger](https://github.com/parham-shafti/thymer-property-arranger) - Reorder multi-value properties
+- [Property Auto-Initiator](https://github.com/parham-shafti/thymer-property-auto-initiator) - Auto populates properties on newly created records
+- [Reference Aliases](https://github.com/parham-shafti/thymer-reference-aliases) - Rename page references
+- [Reference Counter](https://github.com/harpreetchima/thymer-reference-counter) - Adds inline reference counters next to record references in the editor
+- [Smart Titles](https://github.com/parham-shafti/thymer-smart-titles) - Show key properties in titles
+
+#### Productivity & Automation
+
+- [App Lock](https://github.com/dantesxj/ThymerAppLockPlugin) - PIN-based Thymer app lock plugin with inactivity auto-lock, manual lock controls, and a hardened sign-out flow
+- [Notes Management Plugin](https://github.com/RobbK17/thymer-notes-management) - Unified Thymer custom panel for bulk note operations and advanced tag workflows
 - [PDF Export](https://github.com/gitdaveuk/thymer-pdf-export-plugin) - Export notes to PDF
 - [Pomodoro Timer](https://github.com/gitdaveuk/thymer-pomodoro-timer) - A pomodoro counter for Thymer
-- [Property Auto-Initiator](https://github.com/parham-shafti/thymer-property-auto-initiator) - Auto populates properties on newly created records
-- [Quick Capture](https://github.com/gitdaveuk/thymer-quick-capture-plugin) - Quickly capture notes from anywhere
-- [Readwise Sync & Daily Highlights Footer](https://github.com/dantesxj/ThymerReadwiseSyncwithDailyFooter) - Sync Readwise Highlights
-- [Recent Files](https://github.com/phildrysdale1/thymer-recent-files/) - Adds quick access to your most recently modified files via a pop-up modal
-- [Reference Counter](https://github.com/harpreetchima/thymer-reference-counter) - Adds inline reference counters next to record references in the editor
-- [Related Notes](https://github.com/ed-nico/thymer-related-notes) - Discovers related notes based on content similarity, shared references, and tags
-- [Save to Thymer](https://github.com/zakblf/save-to-thymer) - Save web pages to Thymer collections with custom templates and property mapping
 - [SyncHub](https://github.com/riclib/thymer-synchub) - Sync architecture for external data sources
-- [Tables](https://github.com/phildrysdale1/thymer-tables) - Renders editable tables in HTML
-- [Theme Architect](https://github.com/asbedb/theme-thyme) - Preview real-time edits to CSS in Thymer
-- [Today's Notes](https://github.com/dantesxj/ThymerTodaysNotesFooter) - Footer on journal entries showing records whose date field matches
-- [Word Count](https://github.com/gitdaveuk/Thymer-Word-Count-Plugin) - Displays a word count for the current page
-- [Workflow(y) Search](https://github.com/RobbK17/thymer-workflow-search) - Workflowy inspired incremental search plugin
 - [Workspace Statistics](https://github.com/RobbK17/thymer-statistics) - Comprehensive statistics and analytics for your Thymer workspace
 
-#### Sidebar Plugins
+#### Themes & Styling
+
+- [Theme Architect](https://github.com/asbedb/theme-thyme) - Preview real-time edits to CSS in Thymer
+
+#### Workspace Utilities
+
+- [Bulk Move Notes](https://github.com/RobbK17/thymer-bulkmove) - Bulk move notes from one collection to another
+- [Bulk Subpage Assigner](https://github.com/RobbK17/thymer-subpage-assigner) - Bulk assign subpages
+- [Scroll to Top](https://github.com/parham-shafti/thymer-scroll-to-top) - Jump back to the top
+
+#### Sidebar & UI
 
 - [Calendar Widget for Sidebar](https://github.com/gitdaveuk/thymer-sidebar-calendar/tree/main) - Calendar for your sidebar
 - [Pinned Notes](https://github.com/gitdaveuk/pinned-notes-for-Thymer) - Pins notes to sidebar
 - [Sloppy](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/app-plugins/sidebar-widget) - Character in the sidebar whose eyes follow your cursor
 
-
 #### Dev Examples
+
 - [Broadcast Demo](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/app-plugins/broadcast) - Real-time messaging between users
 - [Clock Plugin](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/app-plugins/clock) - Status bar clock demo
 - [CSS Plugin](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/app-plugins/css) - Custom CSS injection demo
@@ -73,18 +122,17 @@ App plugins extend the entire Thymer application with global features.
 - [Robot Cursor](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/app-plugins/robot-cursor) - Fun cursor customization demo
 - [Weather Plugin](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/app-plugins/weather) - Weather display in status bar
 
----
-
 ### Collection Plugins
 
 Collection plugins extend specific note collections with custom views, formulas, and functionality.
 
 - [Media Tracker](https://github.com/afroviking/thymer-media-plugin) - Track books, movies, and TV shows you've read or watched
 - [Weekly Journal](https://github.com/ed-nico/thymer-weekly-journal) - View this week's journal pages side by side
-- [Supertypes](https://github.com/RobbK17/thymer-supertypes) - adds typed records with coloured badges, per-type field visibility etc.
-- [Hardcover Sync](https://github.com/phildrysdale1/thymer-hardcover-sync/) - syncs your Hardcover list to a collection.
+- [Supertypes](https://github.com/RobbK17/thymer-supertypes) - Adds typed records with coloured badges, per-type field visibility etc.
+- [Hardcover Sync](https://github.com/phildrysdale1/thymer-hardcover-sync/) - Syncs your Hardcover list to a collection
 
 #### Dev Examples
+
 - [Custom Property Render](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/collection-plugins/custom-prop-render) - Custom rendering and sorting for table properties
 - [Filter Dropdown Choices](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/collection-plugins/filter-dropdown-choices) - Dynamic dropdown filtering based on other fields
 - [Globe View](https://github.com/thymerapp/thymer-plugin-sdk/tree/main/examples/collection-plugins/globe-view) - Interactive 3D globe custom view
@@ -103,11 +151,11 @@ Collection plugins extend specific note collections with custom views, formulas,
 
 Custom CSS themes and visual customizations.
 
+### Light & Dark
+
 - [Ayu](https://github.com/phildrysdale1/thymer-ayu-theme) - Light & Dark
 - [Catppuccin Latte-Frappe-Macchiato](https://github.com/phildrysdale1/Thymer-Catppuccin-Latte-Frappe-Macchiato) - Light & Dark
-- [Catppuccin Mocha](https://github.com/niklashog/Thymer-Catppuccin-Mocha) - Dark Only
 - [Chocolatey-Brown](https://github.com/gitdaveuk/Thymer-Chocolatey-Brown-Theme/tree/main) - Light & Dark
-- [Daylight Soot](https://github.com/niklashog/Thymer-Daylight-Soot) - Light Only
 - [Dracula](https://github.com/phildrysdale1/thymer-dracula-theme) - Light & Dark
 - [Everforest](https://github.com/phildrysdale1/thymer-everforest-theme) - Light & Dark
 - [GitHub](https://github.com/phildrysdale1/thymer-github-themes) - Light & Dark
@@ -115,10 +163,18 @@ Custom CSS themes and visual customizations.
 - [Monokai](https://github.com/phildrysdale1/thymer-monokai-theme) - Light & Dark
 - [Night Owl](https://github.com/phildrysdale1/thymer-night-owl-theme) - Light & Dark
 - [Nord](https://github.com/phildrysdale1/thymer-nord-theme) - Light & Dark
-- [One Dark](https://github.com/phildrysdale1/thymer-one-dark-theme) - Dark Only
 - [Solarized](https://github.com/phildrysdale1/Thymer-Solarized-Theme) - Light & Dark
 - [Thymer Logseq](https://github.com/gitdaveuk/Logseq-theme-for-Thymer) - Light & Dark
 - [Tokyo Night](https://github.com/phildrysdale1/thymer-tokyo-night-theme) - Light & Dark
+
+### Dark Only
+
+- [Catppuccin Mocha](https://github.com/niklashog/Thymer-Catppuccin-Mocha) - Dark Only
+- [One Dark](https://github.com/phildrysdale1/thymer-one-dark-theme) - Dark Only
+
+### Light Only
+
+- [Daylight Soot](https://github.com/niklashog/Thymer-Daylight-Soot) - Light Only
 
 ---
 
