@@ -81,6 +81,7 @@ App plugins extend the entire Thymer application with global features.
 #### References & Metadata
 
 - [Backreferences](https://github.com/harpreetchima/thymer-backreferences) - Thymer backreferences footer plugin
+- [Bidirectional Fields](https://github.com/parham-shafti/thymer-bidirectional-fields) - Keep two page-link fields in sync as inverses
 - [Property Arranger](https://github.com/parham-shafti/thymer-property-arranger) - Reorder multi-value properties
 - [Property Auto-Initiator](https://github.com/parham-shafti/thymer-property-auto-initiator) - Auto populates properties on newly created records
 - [Reference Aliases](https://github.com/parham-shafti/thymer-reference-aliases) - Rename page references
