@@ -84,7 +84,7 @@ App plugins extend the entire Thymer application with global features.
 - [Bidirectional Fields](https://github.com/parham-shafti/thymer-bidirectional-fields) - Keep two page-link fields in sync as inverses
 - [Property Arranger](https://github.com/parham-shafti/thymer-property-arranger) - Reorder multi-value properties
 - [Property Auto-Initiator](https://github.com/parham-shafti/thymer-property-auto-initiator) - Auto populates properties on newly created records
-- [Reference Aliases](https://github.com/parham-shafti/thymer-reference-aliases) - Rename page references
+- [Reference Aliases](https://github.com/parham-shafti/thymer-reference-aliases) - Set a custom display label (alias) for page references
 - [Reference Counter](https://github.com/harpreetchima/thymer-reference-counter) - Adds inline reference counters next to record references in the editor
 - [Smart Titles](https://github.com/parham-shafti/thymer-smart-titles) - Show key properties in titles
 
